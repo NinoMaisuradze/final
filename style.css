@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  background-color: #070724;
+}
+
+h1 {
+  margin-left: 20px;
+  line-height: 80px;
+  color: white;
+  font-weight: 400;
+  margin: 16px 0 16px 24px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.nav-link {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  color: white;
+  font-size: 14px;
+}
