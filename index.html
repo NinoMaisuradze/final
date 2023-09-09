@@ -3,23 +3,129 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Planets</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+    <script src="./script.js" defer></script>
   </head>
   <body>
-    <nav>
+    <header>
       <h1>THE PLANETS</h1>
-      <ul>
-        <li><a class="nav-link" href="#">MERCURY</a></li>
-        <li><a class="nav-link" href="#">VENUS</a></li>
-        <li><a class="nav-link" href="#">EARTH</a></li>
-        <li><a class="nav-link" href="#">MARS</a></li>
-        <li><a class="nav-link" href="#">JUPITER</a></li>
-        <li><a class="nav-link" href="#">SATURN</a></li>
-        <li><a class="nav-link" href="#">URANUS</a></li>
-        <li><a class="nav-link" href="#">NEPTUNE</a></li>
-      </ul>
-    </nav>
+      <img
+        class="burger"
+        src="/assets/134216_menu_lines_hamburger_icon.svg"
+        alt="burger-icon"
+      />
+      <nav class="nav">
+        <ul>
+          <li class="li">
+            <div class="hover-line"></div>
+            <div class="title-circle">
+              <div class="circle mercury"></div>
+              <p class="planet-name">mercury</p>
+            </div>
+            <img  class="arrow" src="/assets/planet-mercury.svg" alt="mercury" />
+          </li>
+          <li class="li">
+            <div class="hover-line"></div>
+            <div class="title-circle">
+              <div class="circle venus"></div>
+              <p class="planet-name">venus</p>
+            </div>
+            <img  class="arrow" src="/assets/planet-venus.svg" alt="venus" />
+          </li>
+          <li class="li">
+            <div class="hover-line"></div>
+            <div class="title-circle">
+              <div class="circle earth"></div>
+              <p class="planet-name">earth</p>
+            </div>
+            <img  class="arrow" src="/assets/planet-earth.svg" alt="earth" />
+          </li>
+          <li class="li">
+            <div class="hover-line"></div>
+            <div class="title-circle">
+              <div class="circle mars"></div>
+              <p class="planet-name">mars</p>
+            </div>
+            <img  class="arrow" src="/assets/planet-mars.svg" alt="mars" />
+          </li>
+          <li class="li">
+            <div class="hover-line"></div>
+            <div class="title-circle">
+              <div class="circle jupiter"></div>
+              <p class="planet-name">jupiter</p>
+            </div>
+            <img  class="arrow" src="assets/planet-jupiter.svg" alt="jupiter" />
+          </li>
+          <li class="li">
+            <div class="hover-line"></div>
+            <div class="title-circle">
+              <div class="circle saturn"></div>
+              <p class="planet-name">saturn</p>
+            </div>
+            <img  class="arrow" src="assets/planet-saturn.svg" alt="saturn" />
+          </li> 
+          <li class="li">
+            <div class="hover-line"></div>
+            <div class="title-circle">
+              <div class="circle uranus"></div>
+              <p class="planet-name">uranus</p>
+            </div>
+            <img  class="arrow" src="/assets/planet-uranus.svg" alt="uranus" />
+          </li>
+          <li class="li">
+            <div class="hover-line"></div>
+            <div class="title-circle">
+              <div class="circle neptune"></div>
+              <p class="planet-name">neptune</p>
+            </div>
+            <img  class="arrow" src="/assets/planet-neptune.svg" alt="neptune" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+        <div class="image-types">
+          <h2 class="types"><span class="number">01</span> OVERVIEW</h2>
+          <h2 class="types">
+            <span class="number">02</span> <span>Internal</span> Structure
+          </h2>
+          <h2 class="types">
+            <span class="number">03</span> Surface <span>Geology</span>
+          </h2>
+        </div>
+        <div class="image-div">
+          <img src="#" class="planet-image" />
+          <img src="#" alt="" class="geology">
+        </div>
+        <div class="information">
+          <h3 class="h3"></h3>
+          <p class="text"></p>
+          <div class="source">
+            <p class="wiki">source: <a class="link" href="#">Wikipedia</a></p>
+            <img src="./assets/icon-source.svg" alt="" class="logo" />
+          </div>
+        </div>
+        <div class="facts">
+          <div class="fact">
+            <p class="name">ROTATION TIME</p>
+            <p class="data"></p>
+          </div>
+          <div class="fact">
+            <p class="name">REVOLUTION TIME</p>
+            <p class="data"></p>
+          </div>
+          <div class="fact">
+            <p class="name">radius</p>
+            <p class="data"></p>
+          </div>
+          <div class="fact">
+            <p class="name">AVERAGE TEMP.</p>
+            <p class="data"></p>
+          </div>
+        </div>
+      </section>
+    </body>
+  </html>
   </body>
 </html>
